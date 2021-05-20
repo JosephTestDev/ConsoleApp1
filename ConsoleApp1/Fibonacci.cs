@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         public static List<int> GetFibonacciSequence(int fibIndex)
         {
-            List<int> sequence = new List<int>();
+            List<int> sequence = new List<int>();       
             sequence.Add(1);
             sequence.Add(1);
             if (fibIndex > 2 )

@@ -9,8 +9,8 @@ namespace ConsoleApp1
     class Program
     {
         static void Main(string[] args)
-        {
-            List<int> fib = Fibonacci.GetFibonacciSequence(5);
+        {     
+            List<int> fib = Fibonacci.GetFibonacciSequence(15);
             for(int index = 0; index < fib.Count; index++)
                 Console.WriteLine(fib[index]);
         }
