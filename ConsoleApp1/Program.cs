@@ -10,7 +10,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {     
-            List<int> fib = Fibonacci.GetFibonacciSequence(11);
+            List<int> fib = Fibonacci.GetFibonacciSequence(22);
             for(int index = 0; index < fib.Count; index++)
                 Console.WriteLine(fib[index]);
         }
