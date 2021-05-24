@@ -21,6 +21,10 @@ namespace ConsoleApp1
         }
         private static List<int> recurse(int count, List<int> sequence)
         {
+            if(fibsub.Class1.EmptyProcessor() == false)
+            {
+                return sequence;
+            }
             if(count > 0)
             {
                 sequence.Add(sequence[sequence.Count - 1] + sequence[sequence.Count - 2]);

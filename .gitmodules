@@ -1,0 +1,3 @@
+[submodule "fibsub"]
+	path = fibsub
+	url = https://github.com/JosephTestDev/fibsub.git

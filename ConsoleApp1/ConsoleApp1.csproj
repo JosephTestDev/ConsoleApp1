@@ -50,5 +50,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\fibsub\fibsub\fibsub.csproj">
+      <Project>{9a525914-6abd-4e22-8d83-127fbebd71b6}</Project>
+      <Name>fibsub</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
